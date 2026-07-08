@@ -1,0 +1,21 @@
+{
+  "name": "nirogitanman",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev --workspace=apps/web",
+    "dev:app": "npm run dev --workspace=apps/app",
+    "dev:partner": "npm run dev --workspace=apps/partner",
+    "dev:admin": "npm run dev --workspace=apps/admin",
+    "build:all": "npm run build --workspaces",
+    "lint": "npm run lint --workspaces",
+    "type-check": "npm run type-check --workspaces"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
+}
