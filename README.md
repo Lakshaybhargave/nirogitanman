@@ -272,3 +272,5 @@ Set in each Vercel project dashboard:
 - Add `SUPABASE_SERVICE_ROLE_KEY` only to server-side env — never `NEXT_PUBLIC_`
 - All Server Actions validate input with Zod before touching the database
 - Middleware runs on every request and handles auth routing automatically
+#   n i r o g i t a n m a n w e b -  
+ 
