@@ -1,5 +1,4 @@
 {
-  "installCommand": "cd apps/web && NPM_CONFIG_WORKSPACES=false npm install",
-  "buildCommand": "cd apps/web && npm run build",
+  "buildCommand": "npm run build:web",
   "outputDirectory": "apps/web/.next"
 }

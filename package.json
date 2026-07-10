@@ -6,16 +6,13 @@
     "dev:web": "npm run dev --prefix apps/web",
     "dev:app": "npm run dev --prefix apps/app",
     "dev:partner": "npm run dev --prefix apps/partner",
-    "dev:admin": "npm run dev --prefix apps/admin"
-    ,"build": "npm run build --workspace=@nirogitanman/web"
+    "dev:admin": "npm run dev --prefix apps/admin",
+    "build:web": "npm run build --prefix apps/web"
   },
   "workspaces": [
     "apps/*",
     "packages/*"
   ],
-  "dependencies": {
-    "next": "^15.0.0"
-  },
   "devDependencies": {
     "typescript": "^5.5.3"
   }
