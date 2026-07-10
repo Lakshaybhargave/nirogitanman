@@ -7,7 +7,12 @@
     "dev:app": "npm run dev --prefix apps/app",
     "dev:partner": "npm run dev --prefix apps/partner",
     "dev:admin": "npm run dev --prefix apps/admin"
+    ,"build": "npm run build --workspace=@nirogitanman/web"
   },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "dependencies": {
     "next": "^15.0.0"
   },
