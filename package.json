@@ -8,6 +8,9 @@
     "dev:partner": "npm run dev --prefix apps/partner",
     "dev:admin": "npm run dev --prefix apps/admin"
   },
+  "dependencies": {
+    "next": "^15.0.0"
+  },
   "devDependencies": {
     "typescript": "^5.5.3"
   }
