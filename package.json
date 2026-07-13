@@ -6,13 +6,8 @@
     "dev:web": "npm run dev --prefix apps/web",
     "dev:app": "npm run dev --prefix apps/app",
     "dev:partner": "npm run dev --prefix apps/partner",
-    "dev:admin": "npm run dev --prefix apps/admin",
-    "build:web": "npm run build --prefix apps/web"
+    "dev:admin": "npm run dev --prefix apps/admin"
   },
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
   "devDependencies": {
     "typescript": "^5.5.3"
   }
